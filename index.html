@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>7TRB SGS DASHBOARD</title>
+    <style>
+    button {
+    transition: 0.5s;
+    color: black;
+    background: transparent;
+    padding: 10px 20px;
+    border:2px solid black;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    align-text: center;
+    margin-top: 8%;
+    }
+    body {
+    text-align: center;
+    }
+    span {
+    height: 100%;
+    width: 0;
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    up: -5;
+    z-index: -1;
+    transition: 0.5s;
+    margin-top: -5.75%;
+    }
+
+    button:hover span{
+    width: 100%;}
+
+    .seesaw {
+    background: #c0fbd0;
+    margin-top: -10%
+    }
+    .we {
+    background: #Fbb681;
+    margin-top: -5%
+    }
+    .la {
+    background: #Fb8183;
+    }
+    .stem {
+    background: #81d9fb;
+    margin-top: -7%
+    }
+    .other{
+    background: #Fb81ee;
+    margin-top: -7%
+    }
+    .hw{
+    background: #F7fb81
+    }
+    </style>
+</head>
+<body>
+<h1>SGS 7TRB DASHBOARD</h1>
+
+<button type="button" onclick="window.location.href='http://canvas.stgeorges.bc.ca/courses/8884'"><span class="we"></span>Canvas: Wonder Expo</button>
+<button type="button" onclick="window.location.href='https://canvas.stgeorges.bc.ca/courses/7735'"><span class="la"></span>Canvas: Humanities</button>
+<button type="button" onclick="window.location.href='http://canvas.stgeorges.bc.ca/courses/7711/assignments'"><span class="stem"></span>Canvas: STEM</button>
+<button type="button" onclick="window.location.href='http://canvas.stgeorges.bc.ca'"><span class="other"></span>Canvas: Other</button>
+<br>
+<br>
+<button type="button" onclick="window.location.href='http://web.seesaw.me'"><span class="seesaw"></span>Seesaw</button>
+<button type="button" onclick="window.location.href='https://docs.google.com/document/d/153r2pPi4ajy9XqdsGghKaFMtvjRjaYI-dBf24uK6jWw/edit'"><span class="hw"></span>Homework Doc</button>
+</body>
+</html>
